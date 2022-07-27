@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		nav{
+			margin-top: 24px;
+		}
+		nav > a{
+			background: green;
+			color: black;
+			padding: 10px;
+			text-decoration: none;
+			border-radius: 5px;
+			font-family: times new roman; 
+		}
+		nav > a:hover{
+			background: blue;
+		}
+		nav > a:active{
+			background: yellow;
+		}
+	</style>
+	
+	<script>
+		var Rooster = new Audio();
+		Rooster.src = "Rooster.mp3";
+	</script>
+</head>
+<body>
+
+	<h1>TESTER!!</h1>
+	<p>I decided to play with audio files and buttons that play audio when clicked.</p>
+	<p>Buttons = <b>Green</b> <br> Hover = <b>Blue</b> <br> Click & Hold = <b>Yellow</b></p>
+
+
+	<nav>
+		<a href="#" onmousedown="Rooster.play()">Click Me</a>
+		<a href="#" onmousedown="Rooster.play()">Me Too!</a>
+		<a href="#" onmousedown="Rooster.play()">No! Click Me!</a>
+		<a href="#" onmousedown="Rooster.play()">No! Me!</a>
+	</nav>
+<br><br>
+<!--
+	<audio controls>
+	  <source src="Rooster/Rooster.ogg" type="audio/ogg">
+	  <source src="Rooster.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+-->
+</body>
+</html>
+
