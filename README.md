@@ -1,2 +1,3 @@
-# v2
-Personal Website V1 (2019)
+# Personal Website V2 (2019)
+
+it says 2018 but I updated v1 to this and kept the 2018 for some reason 😅
