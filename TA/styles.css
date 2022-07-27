@@ -1,0 +1,35 @@
+body {
+    background-color: #D1E4E8;
+    color: #01020D;
+    font-family: pt sans;
+}
+
+div.jumbotron{
+    background-color: #D1E4E8;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*background-image: url("imgs/brain.jpg");*/
+}
+
+h1, h2, h3, h4, h5{
+    color: #021740;
+    font-family: pt sans narrow;
+    font-weight: bold;
+}
+
+p {
+    font-family: pt sans;
+}
+
+
+
+a:visited, a:link {
+    color: #010726;
+}
+
+td, tr{
+    vertical-align: middle;
+    color: #01020D;
+    cursor: pointer;
+}
