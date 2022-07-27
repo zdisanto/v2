@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 2</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <a href="../index.html">Back</a><br>
+        <button onclick="buildPage();">Build Page</button>
+        <script src="constitution.js">        
+        </script>           
+        <script>            
+            function addElement(type, content){
+                elem = document.createElement(type);
+                elem.innerHTML = content;
+                document.body.appendChild(elem);
+            }
+            
+            //FIX CODE BELOW
+            function buildPage(){
+                for(item of constitution){
+                    addElement("H1", item)
+                }
+            }
+            //FIX CODE ABOVE            
+        </script>
+    </body>
+</html>
