@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css" rel="stylesheet">
+	<!--COVER IMAGE: https://images.app.goo.gl/QTJ1k9sKS6NzW3dU7-->
+	<!--PROFILE PHOTO: Edward Austi Sheldon Frontispiece; Autobiography of Edward Austin Sheldon-->
+	<style>
+		header {
+	    	text-align: center;
+	    	background: url('StatueEAS.png');
+	    	background-size: cover;
+	    	color: white;
+    	}
+    	a {
+      		color: white;
+    	}
+    	h1 {
+      		font-size: 70px;
+    	}
+    	img {
+      		margin: 40px 0px 0px 0px;
+      		border: 7px solid white;
+      		border-radius: 20px;
+    	}
+    	ul {
+      		padding: 10px;
+      		background: rgba(0,0,0,0.5);
+    	}
+    	li {
+      		display: inline;
+      		padding: 0px 10px 0px 10px;
+    	}
+    	article {
+      		max-width: 500px;
+      		padding: 20px;
+      		margin: 0 auto;
+    	}
+	    @media (max-width: 500px) {
+	    h1 {
+        	font-size: 36px;
+        	padding: 5px;
+	    }
+      	li {
+        	padding: 5px;
+        	display: block;
+      	}
+		}
+	</style>
+	</head>
+	<body>
+		<header>
+			<img src="EdwardA.Sheldon.png">
+			<h1>Edward Austin Sheldon</h1>
+			<h4>Who Am I?</h4>
+			<ul>
+				<li><a href="AutobiographyEAS.html">Home</a></li>
+				<li class="active"><a href="Who.html">Who Am I?</a></li>
+	      		<li><a href="What.html">What is This?</a></li>
+	      		<li><a href="Appendix.html">Appendix</a></li>
+	    	</ul>
+	  	</header>
+	  	<article>
+	  		<h2>Welcome!</h2>
+	  		<p>My name is Edward A. Sheldon. I was born October 4, 1823  in Perry Center New York and passed August 26, 1897 in Oswego New York. I went to and graduated from Hamilton College. I was the 1st President of State University of New York (SUNY) at Oswego. When I founded it, it was called Oswego Primary Teachers' Training School. I got married to Frances Stiles Sheldon and we had one child. A little girl named Mary. She too became an educator.</p>
+	  		<button>Like</button>
+	    	<button>Comment</button>
+	  	</article>
+
+	  <script>
+	    $("button").on("click", function() {
+	      alert("Clicked!");
+	    });
+	  </script>
+
+	<footer>&copy; 1911 &bull; by Ives-Butler Co.</footer>
+
+</body>

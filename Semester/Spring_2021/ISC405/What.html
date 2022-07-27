@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css" rel="stylesheet">
+	<!--COVER IMAGE: https://images.app.goo.gl/QTJ1k9sKS6NzW3dU7-->
+	<!--PROFILE PHOTO: Edward Austi Sheldon Frontispiece; Autobiography of Edward Austin Sheldon-->
+	<style>
+		header {
+	    	text-align: center;
+	    	background: url('StatueEAS.png');
+	    	background-size: cover;
+	    	color: white;
+    	}
+    	a {
+      		color: white;
+    	}
+    	h1 {
+      		font-size: 70px;
+    	}
+    	img {
+      		margin: 40px 0px 0px 0px;
+      		border: 7px solid white;
+      		border-radius: 20px;
+    	}
+    	ul {
+      		padding: 10px;
+      		background: rgba(0,0,0,0.5);
+    	}
+    	li {
+      		display: inline;
+      		padding: 0px 10px 0px 10px;
+    	}
+    	article {
+      		max-width: 500px;
+      		padding: 20px;
+      		margin: 0 auto;
+    	}
+	    @media (max-width: 500px) {
+	    h1 {
+        	font-size: 36px;
+        	padding: 5px;
+	    }
+      	li {
+        	padding: 5px;
+        	display: block;
+      	}
+		}
+	</style>
+	</head>
+	<body>
+		<header>
+			<img src="EdwardA.Sheldon.png">
+			<h1>Edward Austin Sheldon</h1>
+			<h4>What is This?</h4>
+			<ul>
+				<li><a href="AutobiographyEAS.html">Home</a></li>
+	      		<li><a href="Who.html">Who Am I?</a></li>
+	      		<li class="active"><a href="What.html">What is This?</a></li>
+	      		<li><a href="Appendix.html">Appendix</a></li>
+	    	</ul>
+	  	</header>
+	  	<article>
+	  		<h2>Brief:</h2>
+	  		<p>This website was created for the second assignment in ISC (Information Science) 405, taught by David Vampola at SUNY Oswego, created by Zo DiSanto. The aim was to take a historical figure and have their journal entries turned into a blog. The information is not my own and taken directly from Edward A. Sheldon's Autobiography cited below. The website is left unfinished to prove creating something like this is tangeble and with more time can be completed with a proper time frame.</p>
+	  		<h2>Citations:</h2>
+	  		<p>
+	  			<i>Cover Image:</i> <a style= "color:blue;" href="https://images.app.goo.gl/QTJ1k9sKS6NzW3dU7 ">syracuse.com</a>
+	  			<br>
+				<i>Profile Photo:</i> Edward Austin Sheldon Frontispiece; Autobiography of Edward Austin Sheldon
+				<br>
+				<i>All information from the Home tab are from: </i>Autobiography of Edward Austin Sheldon
+				by Sheldon, E. A. (Edward Austin), 1823-1897; Barnes, Mary Downing Sheldon, 1850-1898
+			</p>
+	    	<button>Comment</button>
+	  	</article>
+		<hr>
+	  <script>
+	    $("button").on("click", function() {
+	      alert("Clicked!");
+	    });
+	  </script>
+
+	<footer>&copy; 1911 &bull; by Ives-Butler Co.</footer>
+
+</body>
