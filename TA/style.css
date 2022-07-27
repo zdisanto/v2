@@ -1,12 +1,9 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 body{
   font-family: times;
-  text-align: center;
-  margin: 0;
 }
 h1{
 	float: left;
@@ -60,7 +57,7 @@ hr{
   width: 800px;
 }
 #sketch{
-	padding: 0;
+  padding: 0;
   margin: auto;
   display: block;
   width: 800px;
@@ -108,13 +105,3 @@ caption{
   font-size: x-large;
   font-style: italic;
 }
-/*
-  .wd{
-  background-color: green;
-  color: black;
-  }
-  .times{
-  background-color: yellow;
-  color:black;
-  }
-*/
