@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  font-family: times;
+	font-family: times;
 }
 h1{
 	float: left;
@@ -57,7 +57,7 @@ hr{
   width: 800px;
 }
 #sketch{
-  padding: 0;
+	padding: 0;
   margin: auto;
   display: block;
   width: 800px;
@@ -105,3 +105,4 @@ caption{
   font-size: x-large;
   font-style: italic;
 }
+
