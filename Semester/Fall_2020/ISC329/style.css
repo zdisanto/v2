@@ -1,0 +1,99 @@
+html{
+	background-color: #f2f2f2f2;
+    padding: 5px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+button:hover, a:hover {
+	opacity: 0.7;
+}
+/* Top Left */
+.containerLeft{
+    width: 47%;
+    min-width: 300px;
+    min-height: 450px;
+    height: 450px;
+    float: left;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+}
+/* Top Right */
+.containerRight{
+    width: 47%;
+    min-width: 300px;
+    min-height: 450px;
+    height: 450px;
+    float: right;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+}
+/* Bottom Left */
+.containerLeft2{
+    width: 47%;
+    min-width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+}
+/* Bottom Right */
+.containerRight2{
+    width: 47%;
+    min-width: 200px;
+    height: 200px;
+    float: right;
+    margin: 5px;
+    color: black;
+    padding: 10px;
+}
+/* Table Stuff */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color:#F26D3D;
+}
+td, th {
+    border: 1px solid #466273;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #F2DEA2;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2f2;
+}
+
+/*(Below) TAKEN FROM: https://codepen.io/dcode-software/pen/zYGOrzK*/ 
+/*(Some things left out and edited)*/
+.animalTable{
+    padding: 20px;
+}
+
+.table-sortable th {
+    cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+    content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+    content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+}
+
+

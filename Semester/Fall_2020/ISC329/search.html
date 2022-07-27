@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<title>PetSearch</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!--BOOTSTRAP STUFF BELOW-->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+ <!--BOOTSTRAP STUFF ABOVE-->
+</head>
+<body style="background-color:#f2f2f2f2;">
+	<nav class="navbar navbar-inverse" style="background-color:#466273;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+	    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>                        
+	      		</button>
+	      		<a class="navbar-brand" href="PetSearch.html" style="color:#F2DEA2;">PetSearch</a>
+	    	</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav">
+	        		<li><a href="PetSearch.html#1.2" style="color:#F2DEA2;">About</a></li>
+	        		<li><a class="active" href="search.html" style="color:#F2DEA2;">Search</a></li>
+	        		<li><a href="contact.html" style="color:#F2DEA2;">Contact</a></li>
+	      		</ul> 
+	      		<ul class="nav navbar-nav navbar-right">
+	        		<li><a href="#" style="color:#F2DEA2;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        		<li><a href="#" style="color:#F2DEA2;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	    		</ul>
+			</div>
+		</div>
+	</nav>
+	<!--WHERE THE TABLE GOES-->	
+	<form>
+		<div class="animalTable" style="background-color:#f2f2f2f2;">
+			<table class="table-sortable">
+				<!--"thead" = table head-->
+				<thead>
+					<!--"tr" = table row-->
+					<tr>
+						<!--"th" = table header-->
+						<th>ID Number</th>
+						<th>Name</th>
+						<th>Kind</th>
+						<th>Breed</th>
+						<th>Age</th>
+						<th>Size</th>
+						<th>Gender</th>
+						<th>Color</th>
+					</tr>
+				</thead>
+				<!--"tbody" = table body-->
+				<tbody>
+					<tr>
+						<!--"td" = table description-->
+						<td>0001</td>
+						<td>Max</td>
+						<td>Dog</td>
+						<td>German Shepard</td>
+						<td>4 Yrs.</td>
+						<td>Medium</td>
+						<td>Male</td>
+						<td>Brown/White</td>
+					</tr>
+					<tr>
+						<td>0002</td>
+						<td>Gus</td>
+						<td>Cat</td>
+						<td>Calico</td>
+						<td>10 Yrs.</td>
+						<td>Large</td>
+						<td>Male</td>
+						<td>Orange/White</td>
+					</tr>
+					<tr>
+						<td>0003</td>
+						<td>Playdo</td>
+						<td>Dog</td>
+						<td>American Water Spaniel</td>
+						<td>5 Yrs.</td>
+						<td>Large</td>
+						<td>Female</td>
+						<td>Brown</td>
+					</tr>
+					<tr>
+						<td>0004</td>
+						<td>Spot</td>
+						<td>Dog</td>
+						<td>Parson Russel Terrier</td>
+						<td>9 Mo.</td>
+						<td>Small</td>
+						<td>Male</td>
+						<td>White/Brown</td>
+					</tr>
+					<tr>
+						<td>0005</td>
+						<td>Luci</td>
+						<td>Cat</td>
+						<td>Bombay</td>
+						<td>7 Yrs.</td>
+						<td>Medium</td>
+						<td>Male</td>
+						<td>Black</td>
+					</tr>
+					<tr>
+						<td>0006</td>
+						<td>Coco</td>
+						<td>Dog</td>
+						<td>Dalmation</td>
+						<td>8 Yrs.</td>
+						<td>Extra Large</td>
+						<td>Female</td>
+						<td>Black/White</td>
+					</tr>
+					<tr>
+						<td>0007</td>
+						<td>Pepper</td>
+						<td>Cat</td>
+						<td>American Shorthair</td>
+						<td>2 Mo.</td>
+						<td>Small</td>
+						<td>Female</td>
+						<td>Grey/White/Black</td>
+					</tr>
+					<tr>
+						<td>0008</td>
+						<td>Stinky</td>
+						<td>Cat</td>
+						<td>Sphynx</td>
+						<td>3 Yrs.</td>
+						<td>Medium</td>
+						<td>Male</td>
+						<td>Hairless</td>
+					</tr>
+					<tr>
+						<td>0009</td>
+						<td>Felix</td>
+						<td>Cat</td>
+						<td>Balinese</td>
+						<td>1 Yr.</td>
+						<td>Small</td>
+						<td>Female</td>
+						<td>Brown/White</td>
+					</tr>
+					<tr>
+						<td>0010</td>
+						<td>Sniffles</td>
+						<td>Dog</td>
+						<td>Mutt</td>
+						<td>8 Mo.</td>
+						<td>Small</td>
+						<td>Male</td>
+						<td>Brown/White</td>
+					</tr>
+					<tr>
+						<td>0011</td>
+						<td>Spaghetti</td>
+						<td>Cat</td>
+						<td>Ragdoll</td>
+						<td>5 Yrs.</td>
+						<td>Small</td>
+						<td>Female</td>
+						<td>White</td>
+					</tr>
+					<tr>
+						<td>0012</td>
+						<td>Hank</td>
+						<td>Dog</td>
+						<td>Bulldog</td>
+						<td>10 Yrs.</td>
+						<td>Small</td>
+						<td>Male</td>
+						<td>White/Brown</td>
+					</tr>
+					<tr>
+						<td>0013</td>
+						<td>Loki</td>
+						<td>Dog</td>
+						<td>Husky</td>
+						<td>3 Yrs.</td>
+						<td>Large</td>
+						<td>Male</td>
+						<td>White/Black</td>
+					</tr>
+					<tr>
+						<td>0014</td>
+						<td>Nora</td>
+						<td>Cat</td>
+						<td>Norwegian Forest Cat</td>
+						<td>2 Yrs.</td>
+						<td>Small</td>
+						<td>Female</td>
+						<td>White/Orange</td>
+					</tr>
+					<tr>
+						<td>0015</td>
+						<td>Petunia</td>
+						<td>Cat</td>
+						<td>Exotic Shorthair</td>
+						<td>9 Yrs.</td>
+						<td>Small</td>
+						<td>Female</td>
+						<td>Grey</td>
+					</tr>
+					<tr>
+						<td>0016</td>
+						<td>Peach</td>
+						<td>Dog</td>
+						<td>Chow Chow</td>
+						<td>10 Mo.</td>
+						<td>Large</td>
+						<td>Female</td>
+						<td>Light Brown</td>
+					</tr>
+					<tr>
+						<td>0017</td>
+						<td>Benji</td>
+						<td>Dog</td>
+						<td>Samoyed</td>
+						<td>6 Mo.</td>
+						<td>Small</td>
+						<td>Male</td>
+						<td>White</td>
+					</tr>
+					<tr>
+						<td>0018</td>
+						<td>Simone</td>
+						<td>Cat</td>
+						<td>Birman</td>
+						<td>4 Yrs.</td>
+						<td>Medium</td>
+						<td>Female</td>
+						<td>White/Brown</td>
+					</tr>
+					<tr>
+						<td>0019</td>
+						<td>Princess</td>
+						<td>Dog</td>
+						<td>Poodle</td>
+						<td>2 Yrs.</td>
+						<td>Medium</td>
+						<td>Female</td>
+						<td>Black</td>
+					</tr>
+					<tr>
+						<td>0020</td>
+						<td>Pierre</td>
+						<td>Cat</td>
+						<td>Chartreux</td>
+						<td>8 Mo.</td>
+						<td>Large</td>
+						<td>Male</td>
+						<td>Grey</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</form>
+	<!--(Below .js) TAKEN FROM: https://codepen.io/dcode-software/pen/zYGOrzK-->
+	<script type="text/javascript">
+		/**
+		 * Sorts a HTML table.
+		 * 
+		 * @param {HTMLTableElement} table The table to sort
+		 * @param {number} column The index of the column to sort
+		 * @param {boolean} asc Determines if the sorting will be in ascending
+		 */
+		function sortTableByColumn(table, column, asc = true) {
+		    const dirModifier = asc ? 1 : -1;
+		    const tBody = table.tBodies[0];
+		    const rows = Array.from(tBody.querySelectorAll("tr"));
+
+		    // Sort each row
+		    const sortedRows = rows.sort((a, b) => {
+		        const aColText = a.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
+		        const bColText = b.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
+
+		        return aColText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
+		    });
+
+		    // Remove all existing TRs from the table
+		    while (tBody.firstChild) {
+		        tBody.removeChild(tBody.firstChild);
+		    }
+
+		    // Re-add the newly sorted rows
+		    tBody.append(...sortedRows);
+
+		    // Remember how the column is currently sorted
+		    table.querySelectorAll("th").forEach(th => th.classList.remove("th-sort-asc", "th-sort-desc"));
+		    table.querySelector(`th:nth-child(${ column + 1})`).classList.toggle("th-sort-asc", asc);
+		    table.querySelector(`th:nth-child(${ column + 1})`).classList.toggle("th-sort-desc", !asc);
+		}
+
+		document.querySelectorAll(".table-sortable th").forEach(headerCell => {
+		    headerCell.addEventListener("click", () => {
+		        const tableElement = headerCell.parentElement.parentElement.parentElement;
+		        const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
+		        const currentIsAscending = headerCell.classList.contains("th-sort-asc");
+
+		        sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
+		    });
+		});
+	</script>
+	<!--END OF TABLE-->
+</body>
+
+</html>
